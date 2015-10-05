@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+var cwd = process.cwd()
+var args = require('yargs').argv
+
+if (args._[0] === 'build') {
+  docpress(cwd).build((err, res) => {
+    if (err) throw err
+  })
+} else {
+  var Runner = require('metalsmith-start').Runner
+  var r = new Runner(docpress(cwd))
+  r.start((err) => {
+    if (err) throw (err)
+  })
+}
+
+function docpress (cwd) {
+  const plugins = {
+    'docpress-core': {},
+    'docpress-base': {}
+  }
+
+  const app = require('docpress-core/ms')(cwd)
+
+  Object.keys(plugins).forEach((plugin) => {
+    const options = plugins[plugin]
+    app = app.use(require(plugin)(options))
+  })
+
+  return app
+}
