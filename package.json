@@ -1,18 +1,29 @@
 {
   "name": "docpress",
+  "description": "Documentation website generator",
   "version": "1.0.0",
-  "description": "``` docpress b[uild] docpress s[erve] ```",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
-  "license": "MIT",
   "bin": {
     "docpress": "bin/docpress"
   },
+  "bugs": {
+    "url": "https://github.com/docpress/docpress/issues"
+  },
   "dependencies": {
+    "docpress-base": "git://github.com/docpress/docpress-base.git#master",
+    "docpress-core": "git://github.com/docpress/docpress-core.git#master",
     "metalsmith-start": "1.0.1",
     "yargs": "3.26.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/docpress/docpress#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docpress/docpress.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
