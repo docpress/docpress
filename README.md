@@ -1,19 +1,18 @@
-# bookdown
+# docpress
 
 ```
-bookdown b[uild]
-bookdown s[erve]
+docpress b[uild]
+docpress s[erve]
 ```
 
 Optional config:
 
 ```json
-# bookdown.json
+# docs/docpress.json
 {
-  "docs": "docs",
   "plugins": {
-    "bookdown-core": {},
-    "bookdown-base": {}
+    "docpress-core": {},
+    "docpress-base": {}
   }
 }
 ```
