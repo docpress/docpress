@@ -12,7 +12,7 @@
   "dependencies": {
     "docpress-base": "git://github.com/docpress/docpress-base.git#master",
     "docpress-core": "git://github.com/docpress/docpress-core.git#master",
-    "metalsmith-start": "1.0.1",
+    "metalsmith-start": "1.1.0",
     "yargs": "3.26.0"
   },
   "devDependencies": {},
