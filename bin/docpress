@@ -16,12 +16,12 @@ if (args._[0] === 'build') {
 }
 
 function docpress (cwd) {
-  const plugins = {
+  const app = require('docpress-core/ms')(cwd)
+
+  const plugins = app.metadata().plugins || {
     'docpress-core': {},
     'docpress-base': {}
   }
-
-  const app = require('docpress-core/ms')(cwd)
 
   Object.keys(plugins).forEach((plugin) => {
     const options = plugins[plugin]
