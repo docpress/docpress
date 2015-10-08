@@ -23,12 +23,16 @@ function run () {
 
 function docpress (cwd) {
   const app = require('docpress-core/ms')(cwd)
+  const meta = app.metadata()
 
-  const plugins = app.metadata().plugins || {
+  // Set default plugins
+  if (!meta.plugins) meta.plugins = {
     'docpress-core': {},
     'docpress-base': {}
   }
 
+  // Use plugins
+  const plugins = meta.plugins
   Object.keys(plugins).forEach((plugin) => {
     const options = plugins[plugin]
     app = app.use(require(plugin)(options))

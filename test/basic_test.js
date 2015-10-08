@@ -1,5 +1,31 @@
-describe('my project', function () {
+'use strict'
+
+const docpress = require('../bin/docpress')
+const fixture = require('./support/fixture')
+
+describe('docpress', function () {
+  this.timeout(5000)
+
+  let fx = fixture('basic')
+  let app
+
+  before(function () {
+    app = docpress(fx.path())
+  })
+
+  before(function (next) {
+    app.build((err) => {
+      if (err) throw err
+      next()
+    })
+  })
+
   it('works', function () {
-    expect(2).toEqual(2)
+    expect(fx.exists('_docpress'))
+    expect(fx.exists('_docpress/index.html'))
+  })
+
+  it('loads default plugins', function () {
+    expect(app.metadata().plugins).toBeAn('object')
   })
 })
