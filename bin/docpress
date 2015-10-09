@@ -15,7 +15,7 @@ function run () {
   } else {
     if (!process.env.NODE_ENV) process.env.NODE_ENV = 'development'
     var Runner = require('metalsmith-start').Runner
-    var r = new Runner(docpress(cwd))
+    var r = new Runner(docpress(cwd), { port: args.port || args.p || 3000 })
     r.start((err) => {
       if (err) throw (err)
     })
