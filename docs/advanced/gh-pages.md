@@ -6,14 +6,14 @@ You can use Travis and [git-update-ghpages] to automatically update your website
 
 Generate a [GitHub token](https://github.com/settings/tokens/new). Travis will use this to push to your repository on your behalf. You can use any name, but you can call it _Travis CI_. Keep this token somewhere safe; you can use it for any of your repositories that will need git-update-ghpages deployments.
 
-> ![](https://raw.githubusercontent.com/rstacruz/git-update-ghpages/master/docs/images/env-variables.png)
+> ![](https://raw.githubusercontent.com/rstacruz/git-update-ghpages/master/docs/images/github-token.png)
 
 ## Adding your token
 
 Make sure Travis is already enabled on your repository. Go to your Travis's repo's settings page (`https://travis-ci.org/user/repo/settings`), and add your token there as `GITHUB_TOKEN`.
  Be sure to turn off the "show this in build log" option.
 
-> ![](https://raw.githubusercontent.com/rstacruz/git-update-ghpages/master/docs/images/github-token.png)
+> ![](https://raw.githubusercontent.com/rstacruz/git-update-ghpages/master/docs/images/env-variables.png)
 
 Alternatively, you can also use the [Travis CLI tool](http://rubygems.org/gems/travis) to add this to your repo as a secure variable:
 
@@ -23,7 +23,9 @@ travis encrypt GITHUB_TOKEN="your token here" --add
 
 ## Configuring builds
 
-Add this to your `.travis.yml` manifest. This will make a build happen after your test, then a deployment right after that. uIn this example, we're deploying `_docs` to `user/repo`.
+> If you installed Docpress locally in your project, skip to the next section.
+
+Add this to your `.travis.yml` manifest. This will make a build happen after your test, then a deployment right after that. In this example, we're deploying `_docs` to `user/repo`.
 
 ```yml
 # .travis.yml
@@ -56,6 +58,16 @@ npm install --save-dev --save-exact git-update-ghpages
 
 ```yml
 # .travis.yml
+node_js:
+- 4
+
+env:
+  global:
+    - GIT_NAME: Travis CI
+    - GIT_EMAIL: nobody@nobody.org
+    - GITHUB_REPO: rstacruz/myproject
+    - GIT_SOURCE: _docpress
+
 script:
 - rake     # ...or whatever your test command is
 - ./node_modules/.bin/docpress build
