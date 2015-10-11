@@ -2,6 +2,7 @@
 if (module.parent) {
   module.exports = docpress
 } else {
+  // TODO: delegate to node_modules/.bin/docpress
   run()
 }
 
