@@ -4,7 +4,7 @@ const nixt = require('nixt')
 const fixture = require('./support/fixture')
 const join = require('path').join
 
-describe('app', function () {
+describe('executable', function () {
   this.timeout(5000)
 
   var fx = fixture('basic')
@@ -17,7 +17,7 @@ describe('app', function () {
   })
 
   it('works', function (next) {
-    this.nixt.run('docpress')
+    this.nixt.run('./docpress')
     .end(() => {
       expect(fx.exists('_docpress/index.html')).toEqual(true)
       next()
