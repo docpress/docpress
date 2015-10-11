@@ -53,7 +53,7 @@ My project
 This is my project and it is wonderful! Save this file as `README.md`.
 ```
 
-You can add more pages later by creating a Table of Contents file; see [Writing more pages]().
+You can add more pages later by creating a Table of Contents file; see [Writing more pages](more-pages.md).
 
 ## Previewing your site
 

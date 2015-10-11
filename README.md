@@ -1,8 +1,11 @@
 # docpress
 
-Documentation website generator.
+Documentation website generator.<br>
+Generates great websites from Markdown files.
 
 [![Status](https://travis-ci.org/docpress/docpress.svg?branch=master)](https://travis-ci.org/docpress/docpress "See test builds")
+
+## What is it
 
 Docpress generates websites from your project's basic documentation; that is, at the very least, a `README.md` file. It also supports multiple Markdown pages in `docs/`.
 
