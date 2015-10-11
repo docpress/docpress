@@ -15,3 +15,4 @@ env:
   - GIT_EMAIL: nobody@nobody.org
   - GITHUB_REPO: docpress/docpress.github.io
   - GIT_SOURCE: _docpress
+  - GIT_BRANCH: master
