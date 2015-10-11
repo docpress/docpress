@@ -1,37 +1,30 @@
 # Quick-start guide
 
-Docpress requires [Node.js] 4.0 or higher.
+Docpress is available via [npm](https://www.npmjs.com/package/docpress). It requires [Node.js] 4.0 or higher.
 
 [Node.js]: http://nodejs.org/
 
-## Installation
-
 #### Global installation
 
-Docpress is available via [npm](https://www.npmjs.com/package/docpress). It can be installed globally (`-g`) so you can use Docpress on any repository in your computer.
+Install Docpress globally (`-g`) so you can use Docpress on any repository in your computer.
 
 ```
 npm install -g docpress
 ```
 
-#### Local installation
+#### Local installation (preferred)
 
-You can choose to install Docpress locally in your project. This is the prefered method, especially for JavaScript projects. Ensure that your project has a `package.json` already; if not, create it using:
+You can install Docpress locally in your project. This is the prefered method, especially for JavaScript projects.
 
-```
-npm init
-```
-
-Install it via npm:
-
-```
+```sh
+npm init  # ...if you don't have package.json
 npm install --save-dev --save-exact docpress
 ```
 
 You can now run the `docpress` command via `./node_modules/.bin/docpress`. This may be cumbersome, so add aliases to Docpress via npm scripts. Edit your `package.json` and add these values in. Docpress will then be accessible via `npm run docs:build` and `npm run docs:serve`.
 
-```json
-# package.json
+```js
+// package.json
 {
   "scripts": {
     "docs:build": "docpress build",
@@ -46,7 +39,7 @@ You can now run the `docpress` command via `./node_modules/.bin/docpress`. This 
 
 This is usually your project's `README.md`. This is a simple Markdown file. Chances are you already have this.
 
-```
+```md
 My project
 ==========
 
