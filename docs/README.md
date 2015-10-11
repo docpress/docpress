@@ -1,5 +1,6 @@
 * [docpress](../README.md)
-
+* Getting started
+  * [Installation](getting-started/installation.md)
 * Customization
-  * [Custom CSS](custom-css.md)
-  * [Configuration](config.md)
+  * [Custom CSS](customization/custom-css.md)
+  * [Configuration](customization/config.md)
