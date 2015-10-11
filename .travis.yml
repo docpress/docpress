@@ -4,3 +4,14 @@ node_js:
 cache:
   directories:
   - node_modules
+script:
+- npm test
+- ./bin/docpress build
+after_success:
+- if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then ./node_modules/.bin/git-update-ghpages -e; fi
+env:
+  global:
+  - GIT_NAME: Travis CI
+  - GIT_EMAIL: nobody@nobody.org
+  - GITHUB_REPO: docpress/docpress.github.io
+  - GIT_SOURCE: _docpress
