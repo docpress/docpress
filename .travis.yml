@@ -4,11 +4,21 @@ node_js:
 cache:
   directories:
   - node_modules
+
+# Test and build docs using latest docpress plugins
+install:
+- npm install
+- npm install docpress/docpress-core#master
+- npm install docpress/docpress-base#master
+
 script:
 - npm test
 - ./bin/docpress build
+
+# Deploy to gh-pages
 after_success:
 - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then ./node_modules/.bin/git-update-ghpages -e; fi
+
 env:
   global:
   - GIT_NAME: Travis CI
