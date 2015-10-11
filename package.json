@@ -31,6 +31,7 @@
     "url": "git+https://github.com/docpress/docpress.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "deploy": "bin/docpress b && git-update-ghpages -b master docpress/docpress.github.io _docpress"
   }
 }
