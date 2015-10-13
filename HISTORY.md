@@ -1,4 +1,4 @@
-## [v0.3.1]
+## [v0.3.2]
 > Oct 14, 2015
 
 - Update docpress-base to [v0.3.1](https://github.com/docpress/docpress-base/blob/master/HISTORY.md#v0.3.1)
@@ -17,4 +17,4 @@
 - Initial release.
 
 [v0.2.0]: https://github.com/docpress/docpress/compare/v0.1.0...v0.2.0
-[v0.3.1]: https://github.com/docpress/docpress/compare/v0.2.0...v0.3.1
+[v0.3.2]: https://github.com/docpress/docpress/compare/v0.2.0...v0.3.2
