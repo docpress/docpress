@@ -1,3 +1,6 @@
 {
-  "github": "docpress/docpress"
+  "github": "docpress/docpress",
+  "markdown": {
+    "decorate": {}
+  }
 }

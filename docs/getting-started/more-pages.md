@@ -51,10 +51,5 @@ Links in the TOC can be relative or absolute. In this example, both links are eq
 * [Your project](/README.md)
 ```
 
-<br>
-
-* * * *
-
 Your Docpress site is growing! Why not add some images?
-[Continue →](images-and-linking.md)
-<!--{.pull-box}-->
+[Continue →](images-and-linking.md) <!--{p:.pull-box}-->

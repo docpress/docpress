@@ -42,11 +42,5 @@ docpress s
 
 [Node.js]: http://nodejs.org/
 
-
-<br>
-
-----
-
-You should now have a basic Docpress website with one page. Want to write more pages?
-[Continue →](more-pages.md)
-<!--{.pull-box}-->
+You should now have a basic Docpress website with one page. Let's write more.
+[Continue →](more-pages.md)<!--{p:.pull-box}-->

@@ -1,4 +1,5 @@
-# docpress
+# docpress <!--{h1:.-with-byline}-->
+> Document the awesome <!--{blockquote:.byline}-->
 
 Documentation website generator.<br>
 Generates great websites from Markdown files.
@@ -24,3 +25,6 @@ See the [Getting Started](docs/getting-started/quickstart.md) guide for more det
 ```
 npm install -g docpress
 ```
+
+Let's build our first Docpress site.
+[Quickstart guide →](docs/getting-started/quickstart.md)<!--{p:.pull-box}-->
