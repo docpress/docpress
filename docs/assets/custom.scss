@@ -1,9 +1,41 @@
 @import url('http://ricostacruz.com/docpress-rsc/style.css');
 
-@media (min-width: 960px) {
-  .wide {
-    width: 9000px;
-    margin-left: -200px;
+@media (min-width: 1280px) {
+  html .markdown-body .wide {
+    width: 900px;
+    margin-left: -100px;
+    margin-top: 2.7em;
+    margin-bottom: 2.7em;
+  }
+
+  html .markdown-body.markdown-body {
+    table, tr, td, th, thead, tbody {
+      border: 0;
+      background: transparent;
+    }
+
+    table {
+      border: solid 2px #eee;
+    }
+
+    th {
+      font-weight: normal;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    * + td,
+    * + th {
+      padding-left: 24px;
+    }
+
+    th, td {
+      text-align: left;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: solid 1px #eee;
+      vertical-align: top;
+    }
   }
 }
 
