@@ -6,5 +6,6 @@
 * Customization
   * [Configuration](customization/config.md)
   * [Custom CSS](customization/custom-css.md)
+  * [Using plugins](customization/plugins.md)
 * Advanced
   * [Automating GitHub pages](advanced/gh-pages.md)
