@@ -72,20 +72,20 @@
 
 @media (min-width: 769px) {
   .page-index .markdown-body.markdown-body {
-    h1.-with-byline,
-    h1.-with-byline + blockquote {
+    h1.-with-tagline,
+    h1.-with-tagline + blockquote {
       font-weight: 200;
       font-size: 4em;
       line-height: 1.1;
     }
 
-    h1.-with-byline {
+    h1.-with-tagline {
       padding-top: 20vh;
       padding-bottom: .2em;
       margin-bottom: 0;
     }
 
-    h1.-with-byline + blockquote {
+    h1.-with-tagline + blockquote {
       margin-top: 0;
       border: 0;
       padding: 0;

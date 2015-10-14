@@ -1,8 +1,7 @@
-# docpress
-<!--{h1:.-with-byline}-->
+# Docpress
+<!--{h1:.-with-tagline}-->
 
-> Document the awesome
-<!--{blockquote:.byline}-->
+> Markdown publishing
 
 Documentation website generator.<br>
 Generates great websites from Markdown files.
