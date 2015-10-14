@@ -30,13 +30,15 @@ $ echo "# My project" > README.md
 $ echo "Documented by Markdown files." >> README.md
 $ docpress serve
 
-            ∴  Docpress
-            ┊  starting...
-            ┊
-     build  ✓  320ms
-     watch  ✓  watching for changes, ^C to abort
-        lr  ✓  livereload (port 64408)
-     serve  ✓  http://localhost:3000
+  Docpress
+  starting development - ^C to exit
+
+  › first build                 350ms ✓
+  › watching changes               on ✓
+  › livereload                     on ✓
+  › http://localhost:3000          on ✓
+
+  Running
 ```
 
 Let's build our first Docpress site.
