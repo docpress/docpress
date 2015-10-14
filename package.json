@@ -18,7 +18,7 @@
   "devDependencies": {
     "expect": "1.12.0",
     "git-update-ghpages": "1.2.0",
-    "markdown-it-decorate": "0.2.0",
+    "markdown-it-decorate": "0.3.0",
     "mocha": "2.3.3",
     "mocha-standard": "1.0.0",
     "nixt": "0.4.1",
