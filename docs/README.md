@@ -7,7 +7,7 @@
   * [Configuration](customization/config.md)
   * [Custom CSS](customization/custom-css.md)
   * [Using plugins](customization/plugins.md)
-  * [Markdown plugins](customization/markdown-plugins.md)
+  * [Markdown configuration](customization/markdown.md)
 * Advanced
   * [Automating GitHub pages](advanced/gh-pages.md)
   * [Hacking Docpress](advanced/hacking.md)
