@@ -24,8 +24,19 @@ Under heavy development now; guides and instructions will magically appear here 
 Still under heavy development, consider this a preview.
 See the [Getting Started](docs/getting-started/quickstart.md) guide for more details.
 
-```
-npm install -g docpress
+```sh
+$ npm install -g docpress
+$ echo "# My project" > README.md
+$ echo "Documented by Markdown files." >> README.md
+$ docpress serve
+
+            ∴  Docpress
+            ┊  starting...
+            ┊
+     build  ✓  320ms
+     watch  ✓  watching for changes, ^C to abort
+        lr  ✓  livereload (port 64408)
+     serve  ✓  http://localhost:3000
 ```
 
 Let's build our first Docpress site.
