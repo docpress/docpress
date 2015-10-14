@@ -10,3 +10,4 @@
   * [Markdown plugins](customization/markdown-plugins.md)
 * Advanced
   * [Automating GitHub pages](advanced/gh-pages.md)
+  * [Hacking Docpress](advanced/hacking.md)

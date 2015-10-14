@@ -1,4 +1,5 @@
 # Custom CSS
+> This article is a stub; you can help by expanding it.
 
 Create a file called `docs/assets/custom.scss` in your project. If you prefer Sass's indented syntax, use `.sass` as an extension.
 
