@@ -2,8 +2,9 @@
 * Getting started
   * [Quick-start guide](getting-started/quickstart.md)
   * [Writing more pages](getting-started/more-pages.md)
+  * [Images and linking](getting-started/images-and-linking.md)
 * Customization
-  * [Custom CSS](customization/custom-css.md)
   * [Configuration](customization/config.md)
+  * [Custom CSS](customization/custom-css.md)
 * Advanced
   * [Automating GitHub pages](advanced/gh-pages.md)

@@ -1,3 +1,38 @@
 # Configuration
 
-To add configuration, add `docs/docpress.json` to your repo.
+To set configuration, create a file called `docpress.json` inside your project's `docs/`. Alternatiely, there are also these 2 ways to set configuration:
+
+* Create a file called `docpress.json` in your project's root.
+* In your project's `package.json`, make a new key called `docpress`.
+
+## Example
+
+Here's an example `docpress.json`:
+
+```json
+{
+  "docs": "docs",
+  "github": "rstacruz/onmount"
+}
+```
+
+Or in `package.json`:
+
+```js
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  /* ... */
+  "docpress": {
+    "github": "rstacruz/myproject"
+  }
+}
+```
+
+## Available configuration
+
+| Key | Default | Description |
+|-----|---------|-------------|
+| **docs** | `"docs"`| The documents folder to parse. Defaults to `"docs"`. This option is only available if it's defined on `docpress.json` (in the project root) or under *docpress* in `package.json`. |
+| **github** | *None* |The repo slug (`user/repo`) for the project. If set, `docpress-core` will add a link to GitHub from the generated page. |
+<!-- {.wide} -->
