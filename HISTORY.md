@@ -1,3 +1,14 @@
+## [v0.4.0]
+> Oct 15, 2015
+
+- metalsmith-start [v1.3.0](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v1.3.0)
+  - New look of a CLI runner
+- docpress-base [v0.4.0](https://github.com/docpress/docpress-base/blob/master/HISTORY.md#v0.4.0)
+  - Allow external CSS config
+- docpress-core [v0.4.0](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v0.4.0)
+  - Allow customization of Markdown options
+  - Allow loading markdown-it plugins
+
 ## [v0.3.4]
 > Oct 14, 2015
 
@@ -30,3 +41,4 @@
 [v0.3.2]: https://github.com/docpress/docpress/compare/v0.2.0...v0.3.2
 [v0.3.3]: https://github.com/docpress/docpress/compare/v0.3.2...v0.3.3
 [v0.3.4]: https://github.com/docpress/docpress/compare/v0.3.3...v0.3.4
+[v0.4.0]: https://github.com/docpress/docpress/compare/v0.3.4...v0.4.0
