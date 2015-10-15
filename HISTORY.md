@@ -1,8 +1,18 @@
+## [v0.5.0]
+> Oct 16, 2015
+
+- docpress-base [v0.5.0](https://github.com/docpress/docpress-base/blob/master/HISTORY.md#v0.5.0)
+  - Use Stylus instead of Sass
+  - Use new setting `css` for custom CSS
+  - Fix bug where a stray `<link rel="stylesheet">` appears in the source
+
 ## [v0.4.3]
+> Oct 15, 2015
 
 - metalsmith-start [v1.3.3](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v1.3.3)
 
 ## [v0.4.2]
+> Oct 15, 2015
 
 - metalsmith-start [v1.3.2](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v1.3.2)
   - Oops, last version didn't work.
@@ -60,3 +70,4 @@
 [v0.4.1]: https://github.com/docpress/docpress/compare/v0.4.0...v0.4.1
 [v0.4.2]: https://github.com/docpress/docpress/compare/v0.4.0...v0.4.2
 [v0.4.3]: https://github.com/docpress/docpress/compare/v0.4.2...v0.4.3
+[v0.5.0]: https://github.com/docpress/docpress/compare/v0.4.3...v0.5.0
