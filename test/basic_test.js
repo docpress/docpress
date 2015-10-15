@@ -4,8 +4,6 @@ const docpress = require('../bin/docpress')
 const fixture = require('./support/fixture')
 
 describe('docpress', function () {
-  this.timeout(5000)
-
   let fx = fixture('basic')
   let app
 

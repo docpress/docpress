@@ -1,8 +1,6 @@
 var standard = require('mocha-standard')
 
 describe('coding style', function () {
-  this.timeout(5000)
-
   it('lib conforms to standard', standard.files([
     '*.js',
     'lib/**/*.js'

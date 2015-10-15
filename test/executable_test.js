@@ -5,8 +5,6 @@ const fixture = require('./support/fixture')
 const join = require('path').join
 
 describe('executable', function () {
-  this.timeout(5000)
-
   var fx = fixture('basic')
 
   beforeEach(function () {
