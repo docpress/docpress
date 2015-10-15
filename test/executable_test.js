@@ -7,18 +7,12 @@ const join = require('path').join
 describe('executable', function () {
   var fx = fixture('basic')
 
-  beforeEach(function () {
-    process.cwd(fx.path())
-    this.nixt = nixt()
-      .run('rm -rf _docpress')
-      .cwd(join(__dirname, '../bin'))
-  })
-
   it('works', function (next) {
-    this.nixt.run('./docpress')
-    .end(() => {
-      expect(fx.exists('_docpress/index.html')).toEqual(true)
-      next()
-    })
+    nixt().run(join(__dirname, '../bin/docpress') + ' build')
+      .cwd(fx.path())
+      .end(() => {
+        expect(fx.exists('_docpress/index.html')).toEqual(true)
+        next()
+      })
   })
 })
