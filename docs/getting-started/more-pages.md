@@ -6,6 +6,9 @@ You can create a Table of Contents page to list down pages in your site. All pag
 
 Create a table of contents as `docs/README.md`. This is the table of contents: an unordered list of pages to link. Here's an example that will only have one file (your main README).
 
+##### docs/README.md
+<!-- {.file-heading} -->
+
 ```md
 Documentation
 =============
@@ -13,7 +16,9 @@ Documentation
 * [Your project](../README.md)
 ```
 
-The first file in the TOC is *always* going to be the home page.
+## Setting the home page
+
+The first file in the TOC is *always* going to be the home page. Its title in the TOC is used as the site's main title.
 
 ## Nesting
 

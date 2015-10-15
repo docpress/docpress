@@ -10,8 +10,6 @@ npm install -g docpress
 
 You can install Docpress locally in your project. This is optional, but greatly preferred. If Docpress is found in the current project, the `docpress` command will use the docpress installed in your current project.
 
-##### Terminal
-
 ```sh
 npm init  # ...if you don't have package.json
 npm install --save-dev --save-exact docpress
@@ -27,8 +25,12 @@ echo _docpress >> .gitignore
 
 Write your first page. This is usually your project's `README.md`. This is a simple Markdown file. Chances are you already have this! You can add more pages later by creating a Table of Contents file (see [Writing more pages](more-pages.md)).
 
-##### docs/README.md
-<!-- {.filename-heading} -->
+Pages are written in Markdown--an easy-to-read, easy-to-write plain text format. Files have the extension `.md`. Learn more about Markdown in GitHub's [Markdown Basics] guide.
+
+[Markdown basics]: https://help.github.com/articles/markdown-basics/
+
+##### README.md
+<!-- {.file-heading} -->
 
 ```md
 My project

@@ -38,3 +38,40 @@
     }
   }
 }
+
+html .markdown-body .file-heading {
+  font-weight: 700;
+  font-size: .9em;
+
+  padding-bottom: 16px;
+  margin-bottom: 0;
+
+  overflow: hidden;
+  height: 1.3em;
+  box-sizing: content-box;
+  white-space: nowrap;
+}
+
+html .markdown-body .file-heading:after {
+  content: '';
+  display: none; /* inline-block; */
+  vertical-align: middle;
+  width: 100%;
+  height: 2px;
+  background: rgba(32, 32, 32, 0.05);
+  margin-left: 16px;
+
+  position: relative;
+  top: -1px;
+}
+
+html .markdown-body .file-heading + pre {
+  margin-top: 0;
+}
+
+html .markdown-body .file-heading:before {
+  @include ion-icon('document');
+  font-size: 16px;
+  width: 24px;
+  color: $accent;
+}
