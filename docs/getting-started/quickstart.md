@@ -29,7 +29,7 @@ Pages are written in Markdown--an easy-to-read, easy-to-write plain text format.
 
 [Markdown basics]: https://help.github.com/articles/markdown-basics/
 
-##### README.md
+##### `README.md`
 <!-- {.file-heading} -->
 
 ```md

@@ -29,7 +29,7 @@ All of [markdown-it] settings are supported.
 
 ## Plugins
 
-You can also put plugins under the `markdown.plugins` option.
+You can also put Markdown-it plugins under the `markdown.plugins` option. These will allow you to customize Markdown parsing behavior through npm packages; search npm for "[markdown-it](https://www.npmjs.com/search?q=markdown-it)" to see available plugins.
 
 ##### `docpress.json`
 <!-- {.file-heading} -->
@@ -61,7 +61,7 @@ npm init  # if you don't have package.json
 npm install --save --save-exact markdown-it-emoji
 ```
 
-## Bundled Markdown plugins
+## Bundled plugins
 
 Some officially-endorsed plugins are bundled into `docpress-core` already. You can use them without installing via npm.
 

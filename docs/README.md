@@ -5,7 +5,7 @@
   * [Images and linking](getting-started/images-and-linking.md)
 * Customization
   * [Configuration](customization/config.md)
-  * [Custom CSS](customization/custom-css.md)
+  * [Custom CSS](customization/css.md)
   * [Using plugins](customization/plugins.md)
   * [Markdown configuration](customization/markdown.md)
 * Advanced

@@ -24,6 +24,9 @@ The first file in the TOC is *always* going to be the home page. Its title in th
 
 To organize your pages into chapters, you can create sub-lists by indenting items that are under a certain parent. You can nest as far as you want, but it's only recommended to nest just one level down.
 
+##### `docs/README.md`
+<!-- {.file-heading} -->
+
 ```md
 * [Your project](../README.md)
 * [Introduction](intro/README.md)
