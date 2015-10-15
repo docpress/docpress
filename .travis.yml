@@ -8,8 +8,6 @@ cache:
 # Build docs using latest docpress plugins
 script:
 - npm test
-- npm install docpress/docpress-core#master
-- npm install docpress/docpress-base#master
 - ./bin/docpress build
 
 # Deploy to gh-pages
