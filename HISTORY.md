@@ -1,3 +1,8 @@
+## [v0.5.5]
+> Oct 16, 2015
+
+- docpress-base [v0.5.5](https://github.com/docpress/docpress-base/blob/master/HISTORY.md#v0.5.5)
+
 ## [v0.5.3]
 > Oct 16, 2015
 
@@ -91,3 +96,4 @@
 [v0.5.1]: https://github.com/docpress/docpress/compare/v0.5.0...v0.5.1
 [v0.5.2]: https://github.com/docpress/docpress/compare/v0.5.1...v0.5.2
 [v0.5.3]: https://github.com/docpress/docpress/compare/v0.5.2...v0.5.3
+[v0.5.5]: https://github.com/docpress/docpress/compare/v0.5.3...v0.5.5
