@@ -1,7 +1,7 @@
 # Docpress
-<!--{h1:.-with-tagline}-->
+<!--{h1:.massive-header.-with-tagline}-->
 
-> Markdown publishing
+> Painless Markdown publishing
 
 Documentation website generator.<br>
 Generates great websites from Markdown files.
@@ -33,14 +33,36 @@ $ docpress serve
   Docpress
   starting development - ^C to exit
 
-  › first build                 350ms ✓
-  › watching changes               on ✓
-  › livereload                     on ✓
-  › http://localhost:3000          on ✓
-
+  350ms ✓   first build                 
+      on    watching changes
+      on    livereload
+      on    http://localhost:3000
+  
   Running
 ```
 
 Let's build our first Docpress site.
 [Quickstart guide →](docs/getting-started/quickstart.md)
+
 <!--{p:.pull-box}-->
+
+:copy:
+
+----
+
+<!--{p:style='display:none'}-->
+<!--{hr:style='display:none'}-->
+
+**docpress** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
+Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+
+<!--{p:style='display:none'}-->
+
+> [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
+> GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
+> Twitter [@rstacruz](https://twitter.com/rstacruz)
+
+<!--{blockquote:style='display:none'}-->
+
+[MIT]: http://mit-license.org/
+[contributors]: http://github.com/rstacruz/docpress/contributors
