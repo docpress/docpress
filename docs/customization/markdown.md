@@ -2,7 +2,7 @@
 
 You can customize how Docpress renders your Markdown content to HTML. Place your configuration inside the `markdown` setting.
 
-##### docpress.json
+##### `docpress.json`
 <!-- {.file-heading} -->
 
 ```js
@@ -24,7 +24,7 @@ All of [markdown-it] settings are supported.
 | `langPrefix` | *"lang-"* | CSS language prefix for fenced blocks |
 | `linkify` | *true* | Auto-convert URLs to links |
 | `typographer` | *true* | Replace quotes and such |
-| `quotes` | *"'“”‘’"* | Quotes to use for `typograher` setting |
+| `quotes` | *'“”‘’* | Quotes to use for `typograher` setting |
 | `highlight` | *Function* | Syntax highlighting function (uses highlight.js by default) |
 
 ## Plugins
@@ -47,7 +47,7 @@ You can also put plugins under the `markdown.plugins` option.
 The names (`decorate` in the example) correspond to an npm package prefixed by `markdown-it-`. For instance, to load the [markdown-it-emoji] plugin, use:
 
 ```js
-    "emoji": {}
+"emoji": {}
 ```
 
 The value (`{}` in the example) are options to be passed onto the plugin. Use `{}` when you don't want to pass any options.
@@ -65,7 +65,7 @@ npm install --save --save-exact markdown-it-emoji
 
 Some officially-endorsed plugins are bundled into `docpress-core` already. You can use them without installing via npm.
 
-* `decorate` ([markdown-it-decorate]) -- Enables custom class names
+* **decorate** ([markdown-it-decorate]) -- Enables custom class names.
 
 [markdown-it]: https://www.npmjs.com/package/markdown-it
 [markdown-it-emoji]: https://www.npmjs.com/package/markdown-it-emoji

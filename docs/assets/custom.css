@@ -39,7 +39,7 @@
 
 html .markdown-body .file-heading {
   font-weight: 700;
-  font-size: .9em;
+  font-size: .95em;
 
   padding-bottom: 16px;
   margin-bottom: 0;
@@ -50,17 +50,16 @@ html .markdown-body .file-heading {
   white-space: nowrap;
 }
 
-html .markdown-body .file-heading:after {
-  content: '';
-  display: none; /* inline-block; */
-  vertical-align: middle;
-  width: 100%;
-  height: 2px;
-  background: rgba(32, 32, 32, 0.05);
-  margin-left: 16px;
+html .markdown-body .file-heading code {
+  background: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
 
-  position: relative;
-  top: -1px;
+html .markdown-body .file-heading code:before,
+html .markdown-body .file-heading code:after {
+  display: none;
 }
 
 html .markdown-body .file-heading + pre {
@@ -68,8 +67,12 @@ html .markdown-body .file-heading + pre {
 }
 
 html .markdown-body .file-heading:before {
-  ion-icon('document');
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  font-family: Ionicons;
+  font-weight: normal;
   font-size: 16px;
   width: 24px;
-  color: $accent;
+  color: #999;
 }

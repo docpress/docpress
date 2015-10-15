@@ -2,7 +2,7 @@
   "github": "docpress/docpress",
   "css": [
     "http://ricostacruz.com/docpress-rsc/style.css",
-    "docs/assets/custom.styl"
+    "docs/assets/custom.css"
   ],
   "markdown": {
     "typographer": true,
