@@ -1,7 +1,7 @@
 {
   "name": "docpress",
   "description": "Documentation website generator",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "bin": {
     "docpress": "bin/docpress"
@@ -12,7 +12,7 @@
   "dependencies": {
     "docpress-base": "0.5.5",
     "docpress-core": "0.5.2",
-    "metalsmith-start": "1.4.1",
+    "metalsmith-start": "1.4.2",
     "yargs": "3.27.0"
   },
   "devDependencies": {
