@@ -1,8 +1,13 @@
+## [v0.4.2]
+
+- metalsmith-start [v1.3.2](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v1.3.2)
+  - Oops, last version didn't work.
+
 ## [v0.4.1]
 > Oct 15, 2015
 
-- metalsmith-start [v1.3.1](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v1.3.0)
-  - Fix issue with cursor behaving erratically (https://github.com/dylang/observatory/pull/6)
+- metalsmith-start [v1.3.1](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v1.3.1)
+  - Fix issue with cursor behaving erratically. (https://github.com/dylang/observatory/pull/6)
 
 ## [v0.4.0]
 > Oct 15, 2015
@@ -49,3 +54,4 @@
 [v0.3.4]: https://github.com/docpress/docpress/compare/v0.3.3...v0.3.4
 [v0.4.0]: https://github.com/docpress/docpress/compare/v0.3.4...v0.4.0
 [v0.4.1]: https://github.com/docpress/docpress/compare/v0.4.0...v0.4.1
+[v0.4.2]: https://github.com/docpress/docpress/compare/v0.4.0...v0.4.2
