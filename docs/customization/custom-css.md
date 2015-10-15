@@ -1,12 +1,18 @@
 # Custom CSS
-> This article is a stub; you can help by expanding it.
 
-Create a file called `docs/assets/custom.scss` in your project. If you prefer Sass's indented syntax, use `.sass` as an extension.
+Put your extra CSS files inside the `css` setting. You can put external files (hosted online), Stylus files (ends in `.styl`), or local CSS files. For Stylus files and local CSS files, they need to be inside `docs/`.
 
-## Customizing variables
+##### docpress.json
+<!-- {.file-heading} -->
 
-Create a file called `docs/assets/variables.scss` in your project. This allows you to change variables.
-
-```scss
-$accent: #129;
+```json
+{
+  "css": [
+    "http://site.com/external.css",
+    "docs/style.styl",
+    "docs/extra.css"
+  ]
+}
 ```
+
+> This article is a stub; you can help by expanding it.
