@@ -1,3 +1,8 @@
+## [v0.5.1]
+> Oct 16, 2015
+
+- metalsmith-start [v1.3.3](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v1.3.3)
+
 ## [v0.5.0]
 > Oct 16, 2015
 
@@ -71,3 +76,4 @@
 [v0.4.2]: https://github.com/docpress/docpress/compare/v0.4.0...v0.4.2
 [v0.4.3]: https://github.com/docpress/docpress/compare/v0.4.2...v0.4.3
 [v0.5.0]: https://github.com/docpress/docpress/compare/v0.4.3...v0.5.0
+[v0.5.1]: https://github.com/docpress/docpress/compare/v0.5.0...v0.5.1
