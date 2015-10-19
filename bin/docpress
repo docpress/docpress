@@ -14,6 +14,7 @@ function run () {
   if (args._[0] === 'build' || args._[0] === 'b') {
     docpress(cwd).build((err, res) => {
       if (err) throw err
+      process.exit(0)
     })
   } else {
     if (!process.env.NODE_ENV) process.env.NODE_ENV = 'development'
