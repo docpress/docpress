@@ -9,5 +9,10 @@
     "plugins": {
       "decorate": {}
     }
+  },
+  "plugins": {
+    "docpress-core": {},
+    "docpress-search": {},
+    "docpress-base": {}
   }
 }
