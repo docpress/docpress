@@ -4,6 +4,7 @@
 - docpress-base [v0.6.0](https://github.com/docpress/docpress-base/blob/master/HISTORY.md#v0.6.0)
 - docpress-core [v0.6.0](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v0.6.0)
 - docpress-search [v0.6.0](https://github.com/docpress/docpress-search/blob/master/HISTORY.md#v0.6.0)
+- Update for compatibility with v0.6 plugins
 
 ## [v0.5.6]
 > Oct 16, 2015
