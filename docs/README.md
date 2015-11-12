@@ -8,6 +8,7 @@
   * [Custom CSS](customization/css.md)
   * [Using plugins](customization/plugins.md)
   * [Markdown configuration](customization/markdown.md)
+  * [Google Analytics](customization/analytics.md)
 * Advanced
   * [Automating GitHub pages](advanced/gh-pages.md)
   * [Hacking Docpress](advanced/hacking.md)

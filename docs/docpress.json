@@ -14,5 +14,9 @@
     "docpress-core": {},
     "docpress-search": {},
     "docpress-base": {}
+  },
+  "googleAnalytics": {
+    "id": "UA-12345678-1",
+    "domain": "rscss.io"
   }
 }
