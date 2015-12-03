@@ -1,3 +1,8 @@
+## [v0.6.7]
+> Dec 4, 2015
+
+- [#3] - Throw errors when `docpress` fails to invoke docpress from `./node_modules`
+
 ## [v0.6.6]
 > Nov 26, 2015
 
@@ -137,3 +142,5 @@
 [v0.6.3]: https://github.com/docpress/docpress/compare/v0.6.1...v0.6.3
 [v0.6.4]: https://github.com/docpress/docpress/compare/v0.6.3...v0.6.4
 [v0.6.6]: https://github.com/docpress/docpress/compare/v0.6.4...v0.6.6
+[#3]: https://github.com/docpress/docpress/issues/3
+[v0.6.7]: https://github.com/docpress/docpress/compare/v0.6.6...v0.6.7
