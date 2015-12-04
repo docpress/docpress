@@ -1,3 +1,8 @@
+## [v0.6.8]
+> Dec  4, 2015
+
+- [#3] - Fix running `docpress` in Windows
+
 ## [v0.6.7]
 > Dec 4, 2015
 
@@ -144,3 +149,4 @@
 [v0.6.6]: https://github.com/docpress/docpress/compare/v0.6.4...v0.6.6
 [#3]: https://github.com/docpress/docpress/issues/3
 [v0.6.7]: https://github.com/docpress/docpress/compare/v0.6.6...v0.6.7
+[v0.6.8]: https://github.com/docpress/docpress/compare/v0.6.7...v0.6.8
