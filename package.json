@@ -14,7 +14,7 @@
     "docpress-core": "0.6.0",
     "docpress-search": "0.6.0",
     "metalsmith-start": "1.4.2",
-    "yargs": "3.30.0"
+    "yargs": "3.31.0"
   },
   "devDependencies": {
     "browserify": "12.0.1",
