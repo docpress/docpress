@@ -1,3 +1,8 @@
+## [v0.6.9]
+> Dec  6, 2015
+
+- [#3] - Fix running `docpress` in Windows (again)
+
 ## [v0.6.8]
 > Dec  4, 2015
 
