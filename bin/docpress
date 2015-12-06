@@ -4,8 +4,8 @@ const delegateBin = require('../lib/delegate_bin')
 if (module.parent) {
   module.exports = docpress
 } else {
-  delegateBin('docpress')
-  run()
+  delegateBin('docpress', 'bin/docpress') ||
+    run()
 }
 
 function run () {
