@@ -1,3 +1,9 @@
+## [v0.6.10]
+> Dec 10, 2015
+
+- docpress-base [v0.6.10](https://github.com/docpress/docpress-base/blob/master/HISTORY.md#v0.6.10)
+  - Fix icons not showing up in Firefox
+
 ## [v0.6.9]
 > Dec  6, 2015
 
@@ -155,3 +161,4 @@
 [#3]: https://github.com/docpress/docpress/issues/3
 [v0.6.7]: https://github.com/docpress/docpress/compare/v0.6.6...v0.6.7
 [v0.6.8]: https://github.com/docpress/docpress/compare/v0.6.7...v0.6.8
+[v0.6.10]: https://github.com/docpress/docpress/compare/v0.6.9...v0.6.10
