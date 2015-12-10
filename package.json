@@ -10,7 +10,7 @@
     "url": "https://github.com/docpress/docpress/issues"
   },
   "dependencies": {
-    "docpress-base": "0.6.5",
+    "docpress-base": "0.6.10",
     "docpress-core": "0.6.0",
     "docpress-search": "0.6.0",
     "metalsmith-start": "1.4.2",
