@@ -13,7 +13,7 @@
     "docpress-base": "0.6.10",
     "docpress-core": "0.6.0",
     "docpress-search": "0.6.0",
-    "metalsmith-start": "1.4.2",
+    "metalsmith-start": "2.0.0",
     "yargs": "3.30.0"
   },
   "devDependencies": {
