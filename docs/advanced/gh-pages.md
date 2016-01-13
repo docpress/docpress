@@ -27,8 +27,11 @@ travis encrypt GITHUB_TOKEN="your token here" --add
 
 Add this to your `.travis.yml` manifest. This will make a build happen after your test, then a deployment right after that. In this example, we're deploying `_docs` to `user/repo`.
 
+##### .travis.yml
+<!-- {.file-heading} -->
+
 ```yml
-# .travis.yml
+language: node_js
 node_js:
 - 4
 
@@ -74,6 +77,21 @@ script:
 
 after_success:
 - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then ./node_modules/.bin/git-update-ghpages -e; fi
+```
+
+## For non-JS projects
+
+The configuration above has `language: node_js`, which may not be what you want. In this case, swap out the `language` and `node_js` fields to invoke nvm `before_install`:
+
+##### .travis.yml
+<!-- {.file-heading} -->
+
+```diff
+- language: node_js
+- node_js:
+- - 4
++ before_install:
++ - nvm use 4
 ```
 
 [git-update-ghpages]: https://github.com/rstacruz/git-update-ghpages
