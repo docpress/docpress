@@ -91,7 +91,7 @@ The configuration above has `language: node_js`, which may not be what you want.
 - node_js:
 - - 4
 + before_install:
-+ - nvm use 4
++ - nvm install 4
 ```
 
 [git-update-ghpages]: https://github.com/rstacruz/git-update-ghpages
