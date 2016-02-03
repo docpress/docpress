@@ -1,3 +1,9 @@
+## [v0.6.11]
+> Dec 10, 2015
+
+- docpress-base [v0.6.1](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v0.6.1)
+  - [#29] - Fix email links not being allowed
+
 ## [v0.6.10]
 > Dec 10, 2015
 
@@ -159,6 +165,7 @@
 [v0.6.4]: https://github.com/docpress/docpress/compare/v0.6.3...v0.6.4
 [v0.6.6]: https://github.com/docpress/docpress/compare/v0.6.4...v0.6.6
 [#3]: https://github.com/docpress/docpress/issues/3
+[#29]: https://github.com/docpress/docpress/issues/29
 [v0.6.7]: https://github.com/docpress/docpress/compare/v0.6.6...v0.6.7
 [v0.6.8]: https://github.com/docpress/docpress/compare/v0.6.7...v0.6.8
 [v0.6.10]: https://github.com/docpress/docpress/compare/v0.6.9...v0.6.10
