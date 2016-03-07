@@ -27,7 +27,7 @@
     "mocha": "2.4.2",
     "mocha-standard": "1.0.0",
     "nixt": "0.5.0",
-    "standard": "6.0.4",
+    "standard": "6.0.8",
     "uglifyify": "3.0.1"
   },
   "homepage": "https://github.com/docpress/docpress#readme",
