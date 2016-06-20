@@ -30,7 +30,7 @@ function run () {
 }
 
 function docpress (cwd) {
-  const app = require('docpress-core/ms')(cwd)
+  var app = require('docpress-core/ms')(cwd)
   const meta = app.metadata()
 
   // Set default plugins
