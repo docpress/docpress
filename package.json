@@ -1,7 +1,7 @@
 {
   "name": "docpress",
   "description": "Documentation website generator",
-  "version": "0.6.11",
+  "version": "0.6.12",
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "bin": {
     "docpress": "bin/docpress"

@@ -1,3 +1,10 @@
+## [v0.6.12]
+> Jun 20, 2016
+
+- [#82] - Fix compatibility with Node.js 6.0. ([@Kikobeats])
+
+[v0.6.12]: https://github.com/docpress/docpress/compare/v0.6.11...v0.6.12
+
 ## [v0.6.11]
 > Dec 10, 2015
 
@@ -169,3 +176,5 @@
 [v0.6.7]: https://github.com/docpress/docpress/compare/v0.6.6...v0.6.7
 [v0.6.8]: https://github.com/docpress/docpress/compare/v0.6.7...v0.6.8
 [v0.6.10]: https://github.com/docpress/docpress/compare/v0.6.9...v0.6.10
+[#82]: https://github.com/docpress/docpress/issues/82
+[@Kikobeats]: https://github.com/Kikobeats
