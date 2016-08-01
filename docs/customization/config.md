@@ -34,8 +34,9 @@ Or in `package.json`:
 | Key | Default | Description |
 |-----|---------|-------------|
 | **docs** | `"docs"`| The documents folder to parse. Defaults to `"docs"`. This option is only available if it's defined on `docpress.json` (in the project root) or under *docpress* in `package.json`. |
+| **dist** | `"_docpress"` | The folder builds are saved to. Defaults to `"_docpress"`. This option is only available if it's defined on `docpress.json` (in the project root) or under *docpress* in `package.json`. |
 | **github** | *None* |The repo slug (`user/repo`) for the project. If set, `docpress-core` will add a link to GitHub from the generated page. |
-| **css** |*None*`| CSS resources to load. See [Custom CSS](css.md) for details. |
+| **css** | *None* | CSS resources to load. See [Custom CSS](css.md) for details. |
 | **googleAnalytics** | *None* | [Google Analytics](analytics.md) support. |
 | **googleAnalytics.id** | *None* | Google Analytics ID. |
 | **googleAnalytics.domain** | *None* | Restrict Google Analytics only to this domain. |
