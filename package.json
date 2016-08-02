@@ -1,7 +1,7 @@
 {
   "name": "docpress",
   "description": "Documentation website generator",
-  "version": "0.6.12",
+  "version": "0.6.13",
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "bin": {
     "docpress": "bin/docpress"
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "docpress-base": "0.6.10",
-    "docpress-core": "0.6.1",
+    "docpress-core": "0.6.13",
     "docpress-search": "0.6.0",
     "eslint": "2.0.0",
     "eslint-config-standard": "5.2.0",

@@ -8,6 +8,13 @@ Generates great websites from Markdown files.
 
 [![Status](https://travis-ci.org/docpress/docpress.svg?branch=master)](https://travis-ci.org/docpress/docpress "See test builds")
 
+## Table of Contents
+
+* [What is it](#)
+* [Examples](#)
+* [Usage](#)
+* [Thanks](#)
+
 ## What is it
 
 Docpress generates websites from your project's basic documentation; that is, at the very least, a `README.md` file. It also supports multiple Markdown pages in `docs/`.
@@ -16,8 +23,8 @@ Under heavy development now; guides and instructions will magically appear here 
 
 ## Examples
 
-* http://ricostacruz.com/dom101 (single readme)
-* http://ricostacruz.com/onmount (multiple pages)
+* <http://ricostacruz.com/dom101> (single readme)
+* <http://ricostacruz.com/onmount> (multiple pages)
 
 ## Usage
 
@@ -46,9 +53,8 @@ Let's build our first Docpress site.
 
 <!--{p:.pull-box}-->
 
-:copy:
-
-----
+Thanks
+------
 
 <!--{p:style='display:none'}-->
 <!--{hr:style='display:none'}-->

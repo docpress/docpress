@@ -1,3 +1,16 @@
+## [v0.6.13]
+> Aug  2, 2016
+
+- docpress-core [v0.6.13](https://github.com/docpress/docpress-core/blob/master/HISTORY.md#v0.6.13)
+  - [docpress-core#91] - Fix error with opening too many files when `node_modules` is big. ([@knownasilya])
+  - [docpress-core#87] - Make destination path (`dist`) configurable. ([@knownasilya])
+
+[docpress-core#91]: https://github.com/docpress/docpress-core/issues/91
+[docpress-core#87]: https://github.com/docpress/docpress-core/issues/87
+[@knownasilya]: https://github.com/knownasilya
+
+[v0.6.13]: https://github.com/docpress/docpress/compare/v0.6.12...v0.6.13
+
 ## [v0.6.12]
 > Jun 20, 2016
 
