@@ -12,7 +12,6 @@
   },
   "plugins": {
     "docpress-core": {},
-    "docpress-search": {},
     "docpress-base": {}
   },
   "googleAnalytics": {
