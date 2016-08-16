@@ -6,6 +6,7 @@
 * Customization
   * [Configuration](customization/config.md)
   * [Custom CSS](customization/css.md)
+  * [Custom Scripts](customization/scripts.md)
   * [Using plugins](customization/plugins.md)
   * [Markdown configuration](customization/markdown.md)
   * [Google Analytics](customization/analytics.md)
