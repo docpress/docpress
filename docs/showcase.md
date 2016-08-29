@@ -6,17 +6,17 @@ Here are some sites that use Docpress.
 
 Docpress lends itself well to building clean, accessible project documentation. These open-source projects are using Docpress to generate their sites.
 
-- [bumped](https://bumped.github.io)
-- [dom101](http://ricostacruz.com/dom101/)
-- [hapi-decorators](http://knownasilya.github.io/hapi-decorators/)
-- [json2csv](http://zemirco.github.io/json2csv)
-- [Onmount](http://ricostacruz.com/onmount)
-- [osom](https://kikobeats.github.io/osom/)
+- [bumped](https://bumped.github.io) - Make releasing software easy
+- [dom101](http://ricostacruz.com/dom101/) - DOM helpers for JavaScript
+- [hapi-decorators](http://knownasilya.github.io/hapi-decorators/) - Route decorators for Hapi.js
+- [json2csv](http://zemirco.github.io/json2csv) - Convert JSON to CSV
+- [Onmount](http://ricostacruz.com/onmount) - Run something when a DOM element appears or exits
+- [osom](https://kikobeats.github.io/osom/) - Object schema modeling
 
 ## Books and manuals
 
 Docpress isn't just restricted to project documentation. Here are some online book-like websites generated using Docpress.
 
-- [JS Mythbusters](http://mythbusters.js.org)
-- [Mapgeo Help Manual](http://help.mapgeo.io)
-- [rscss](http://rscss.io)
+- [JS Mythbusters](http://mythbusters.js.org) - A JavaScript optimization handbook
+- [Mapgeo Help Manual](http://help.mapgeo.io) - Users manual for the Mapgeo service
+- [rscss](http://rscss.io) - Reasonable System for CSS Stylesheet Structure
