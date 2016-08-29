@@ -18,7 +18,7 @@ cd ~/Projects/docpress
 
 ```sh
 git clone http://github.com/docpress/docpress.git
-git clone http://github.com/docpress/docpress-base.git
+git clone http://github.com/docpress/docpress-html.git
 git clone http://github.com/docpress/docpress-core.git
 ```
 
@@ -27,7 +27,7 @@ Use `npm link` so you can use them as local development copies.
 
 ```sh
 (cd docpress && npm link)
-(cd docpress-base && npm link)
+(cd docpress-html && npm link)
 (cd docpress-core && npm link)
 ```
 
@@ -35,6 +35,6 @@ Use `npm link` so you can use them as local development copies.
 Use the linked development copies.
 
 ```sh
-(cd docpress && npm i && npm link docpress-base && npm link docpress-core)
-(cd docpress-base && npm i && npm link npm link docpress-core)
+(cd docpress && npm i && npm link docpress-html && npm link docpress-core)
+(cd docpress-html && npm i && npm link npm link docpress-core)
 ```
