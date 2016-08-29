@@ -1,4 +1,5 @@
 * [docpress](../README.md)
+* [Showcase](showcase.md)
 * Getting started
   * [Quick-start guide](getting-started/quickstart.md)
   * [Writing more pages](getting-started/more-pages.md)
