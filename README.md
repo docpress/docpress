@@ -10,10 +10,11 @@ Generates great websites from Markdown files.
 
 ## Table of Contents
 
-* [What is it](#)
-* [Examples](#)
-* [Usage](#)
-* [Thanks](#)
+* [What is it](#what-is-it)
+* [Examples](#examples)
+* [Usage](#usage)
+* [Support](#support)
+* [Thanks](#thanks)
 
 ## What is it
 
@@ -52,6 +53,12 @@ Let's build our first Docpress site.
 [Quickstart guide →](docs/getting-started/quickstart.md)
 
 <!--{p:.pull-box}-->
+
+Support
+-------
+
+- [Documentation](http://docpress.github.io/)
+- [Gitter chat](https://gitter.im/docpress/Lobby)
 
 Thanks
 ------
