@@ -8,6 +8,7 @@ Docpress lends itself well to building clean, accessible project documentation. 
 
 - [bumped](https://bumped.github.io) - Make releasing software easy
 - [dom101](http://ricostacruz.com/dom101/) - DOM helpers for JavaScript
+- [ember-watson](http://abuiles.github.io/ember-watson) - Doctor for Ember Apps
 - [hapi-decorators](http://knownasilya.github.io/hapi-decorators/) - Route decorators for Hapi.js
 - [json2csv](http://zemirco.github.io/json2csv) - Convert JSON to CSV
 - [Onmount](http://ricostacruz.com/onmount) - Run something when a DOM element appears or exits
