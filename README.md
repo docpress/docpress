@@ -24,8 +24,7 @@ Under heavy development now; guides and instructions will magically appear here 
 
 ## Examples
 
-* <http://ricostacruz.com/dom101> (single readme)
-* <http://ricostacruz.com/onmount> (multiple pages)
+Check out the [Docpress Showcase](docs/showcase.md) to see how Docpress helped developers build great-looking websites.
 
 ## Usage
 
@@ -49,22 +48,21 @@ $ docpress serve
   Running
 ```
 
-Let's build our first Docpress site.
-[Quickstart guide →](docs/getting-started/quickstart.md)
-
-<!--{p:.pull-box}-->
-
 Support
 -------
 
 - [Documentation](http://docpress.github.io/)
 - [Gitter chat](https://gitter.im/docpress/Lobby)
 
+Let's build our first Docpress site.
+[Quickstart guide →](docs/getting-started/quickstart.md)
+
+<!--{p:.pull-box}-->
+
 Thanks
 ------
 
-<!--{p:style='display:none'}-->
-<!--{hr:style='display:none'}-->
+<!--{h2:style='display:none'}-->
 
 **docpress** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
 Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
