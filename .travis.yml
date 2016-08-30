@@ -15,6 +15,7 @@ script:
 
 # Deploy to gh-pages
 after_success:
+- npm run coveralls
 - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then ./node_modules/.bin/git-update-ghpages -e; fi
 
 env:
