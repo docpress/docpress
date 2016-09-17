@@ -13,7 +13,7 @@
     "docpress-base": "0.6.10",
     "docpress-core": "0.6.13",
     "eslint": "2.0.0",
-    "eslint-config-standard": "5.2.0",
+    "eslint-config-standard": "6.0.1",
     "eslint-plugin-standard": "1.3.1",
     "metalsmith-start": "2.0.1",
     "yargs": "4.8.1"
