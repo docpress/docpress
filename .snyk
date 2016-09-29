@@ -1,0 +1,20 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:marked:20150520':
+    - docpress-core > marked:
+        patched: '2016-09-08T14:14:14.036Z'
+  'npm:minimatch:20160620':
+    - docpress-base > uglifyify > minimatch:
+        patched: '2016-09-08T14:14:14.036Z'
+    - docpress-core > metalsmith > recursive-readdir > minimatch:
+        patched: '2016-09-08T14:14:14.036Z'
+    - metalsmith-start > metalsmith > recursive-readdir > minimatch:
+        patched: '2016-09-08T14:14:14.036Z'
+    - docpress-base > stylus > glob > minimatch:
+        patched: '2016-09-08T14:14:14.036Z'
+    - metalsmith-start > superstatic > minimatch:
+        patched: '2016-09-08T14:14:14.036Z'
+  'npm:uglify-js:20151024':
+    - docpress-base > jade > transformers > uglify-js:
+        patched: '2016-09-08T14:14:14.036Z'
