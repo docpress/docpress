@@ -27,8 +27,8 @@
     "website"
   ],
   "dependencies": {
-    "docpress-base": "0.7.1",
-    "docpress-core": "0.7.0",
+    "docpress-base": "0.7.2",
+    "docpress-core": "0.7.1",
     "metalsmith-start": "2.0.1",
     "yargs": "6.0.0"
   },
