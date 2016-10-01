@@ -40,9 +40,16 @@
     "markdown-it-decorate": "~1.2.1",
     "mocha": "~3.0.2",
     "nixt": "~0.5.0",
-    "nyc": "~8.1.0",
-    "standard": "~6.0.8",
+    "standard": "8.1.0",
+    "uglifyify": "3.0.3"
     "uglifyify": "~3.0.1"
+  },
+  "homepage": "https://github.com/docpress/docpress#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docpress/docpress.git"
   },
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
