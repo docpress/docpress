@@ -2,7 +2,7 @@
   "name": "docpress",
   "description": "Documentation website generator",
   "homepage": "https://github.com/docpress/docpress#readme",
-  "version": "0.6.13",
+  "version": "0.7.0",
   "main": "index.js",
   "bin": {
     "docpress": "bin/docpress"
