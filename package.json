@@ -10,7 +10,7 @@
     "url": "https://github.com/docpress/docpress/issues"
   },
   "dependencies": {
-    "docpress-base": "0.6.10",
+    "docpress-base": "0.7.1",
     "docpress-core": "0.6.13",
     "eslint": "2.0.0",
     "eslint-config-standard": "5.2.0",
