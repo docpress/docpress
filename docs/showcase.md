@@ -13,6 +13,7 @@ Docpress lends itself well to building clean, accessible project documentation. 
 - [json2csv](http://zemirco.github.io/json2csv) - Convert JSON to CSV
 - [Onmount](http://ricostacruz.com/onmount) - Run something when a DOM element appears or exits
 - [osom](https://kikobeats.github.io/osom/) - Object schema modeling
+- [tydel](http://tydel.js.org/) - Typed Models and Collections for JavaScript data structure
 
 ## Books and manuals
 
