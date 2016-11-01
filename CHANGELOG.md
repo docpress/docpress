@@ -1,3 +1,15 @@
+<a name="0.7.1"></a>
+## 0.7.1 (2016-11-01)
+
+* chore(package): update docpress-base to version 0.7.4 (#181) ([b108ca5](https://github.com/docpress/docpress/commit/b108ca5))
+* chore(package): update mocha to version 3.1.2 ([0bd1813](https://github.com/docpress/docpress/commit/0bd1813))
+* chore(package): update nyc to version 8.3.1 ([4691236](https://github.com/docpress/docpress/commit/4691236))
+* chore(package): update standard to version 8.4.0 ([e800087](https://github.com/docpress/docpress/commit/e800087))
+* showcase: tydel (#176) ([eef867e](https://github.com/docpress/docpress/commit/eef867e))
+* Add disqus docs ([e13eb3e](https://github.com/docpress/docpress/commit/e13eb3e))
+
+
+
 <a name="0.7.0"></a>
 # 0.7.0 (2016-10-01)
 
