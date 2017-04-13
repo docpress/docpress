@@ -30,7 +30,7 @@
     "docpress-base": "0.7.4",
     "docpress-core": "0.7.1",
     "metalsmith-start": "2.0.1",
-    "yargs": "6.6.0"
+    "yargs": "7.1.0"
   },
   "devDependencies": {
     "browserify": "13.1.1",
