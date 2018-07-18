@@ -23,3 +23,4 @@ Docpress isn't just restricted to project documentation. Here are some online bo
 - [JS Mythbusters](http://mythbusters.js.org) - A JavaScript optimization handbook
 - [Mapgeo Help Manual](http://help.mapgeo.io) - Users manual for the Mapgeo service
 - [rscss](http://rscss.io) - Reasonable System for CSS Stylesheet Structure
+- [Basic Electronics](https://bel.aravindvoggu.in) - [IIIT-Bangalore](https://www.iiitb.ac.in) is using Docpress to make Course Material available to students.
