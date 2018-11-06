@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.3"></a>
+## [0.7.3](https://github.com/docpress/docpress/compare/v0.7.2...v0.7.3) (2018-11-06)
+
+
+### Bug Fixes
+
+* update yargs dep ([5992ef9](https://github.com/docpress/docpress/commit/5992ef9))
+
+
+
 <a name="0.7.2"></a>
 ## [0.7.2](https://github.com/docpress/docpress/compare/v0.6.13...v0.7.2) (2018-11-06)
 
