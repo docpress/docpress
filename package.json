@@ -1,4 +1,4 @@
-{
+
   "name": "docpress",
   "description": "Documentation website generator",
   "homepage": "https://github.com/docpress/docpress#readme",
@@ -42,6 +42,7 @@
     "nixt": "^0.5.1",
     "nyc": "9.0.1",
     "standard": "8.4.0",
+    "standard-version": "^4.4.0",
     "uglifyify": "3.0.4"
   },
   "scripts": {
@@ -49,7 +50,8 @@
     "deploy": "bin/docpress b && git-update-ghpages -b master docpress/docpress.github.io _docpress",
     "lint": "standard",
     "pretest": "npm run lint",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "release": "standard-version"
   },
   "license": "MIT",
   "standard": {
