@@ -24,6 +24,6 @@ describe('docpress', function () {
   })
 
   it('loads default plugins', function () {
-    expect(app.metadata().plugins).toBeAn('object')
+    expect(app.metadata().plugins).toEqual(expect.any(Object))
   })
 })
