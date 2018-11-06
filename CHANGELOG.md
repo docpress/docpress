@@ -1,3 +1,29 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="0.7.2"></a>
+## [0.7.2](https://github.com/docpress/docpress/compare/v0.6.13...v0.7.2) (2018-11-06)
+
+
+### Bug Fixes
+
+* typo in package.json ([e4920d6](https://github.com/docpress/docpress/commit/e4920d6))
+* update core dep, resolves [#231](https://github.com/docpress/docpress/issues/231) ([9e5d7ac](https://github.com/docpress/docpress/commit/9e5d7ac))
+* update mocha to resolve a vulnerability in dev only ([0777f04](https://github.com/docpress/docpress/commit/0777f04))
+
+
+
+<a name="0.7.1"></a>
+## 0.7.1 (2016-11-01)
+
+
+
+<a name="0.7.0"></a>
+# 0.7.0 (2016-10-01)
+
+
+
 <a name="0.7.1"></a>
 ## 0.7.1 (2016-11-01)
 
@@ -333,6 +359,3 @@
 * Update readme ([e44bdef](https://github.com/docpress/docpress/commit/e44bdef))
 * Update readme ([e3ccee7](https://github.com/docpress/docpress/commit/e3ccee7))
 * Update readme ([f44312b](https://github.com/docpress/docpress/commit/f44312b))
-
-
-
