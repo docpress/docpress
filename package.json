@@ -28,8 +28,8 @@
   ],
   "dependencies": {
     "docpress-base": "0.7.4",
-    "docpress-core": "0.8.0",
-    "metalsmith-start": "2.0.1",
+    "docpress-core": "~0.9.0",
+    "metalsmith-start": "rstacruz/metalsmith-start#e88a7cd",
     "yargs": "^12.0.2"
   },
   "devDependencies": {
