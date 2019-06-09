@@ -33,7 +33,7 @@ Add this to your `.travis.yml` manifest. This will make a build happen after you
 ```yml
 language: node_js
 node_js:
-- 4
+- 10
 
 env:
   global:
@@ -62,7 +62,7 @@ npm install --save-dev --save-exact git-update-ghpages
 ```yml
 # .travis.yml
 node_js:
-- 4
+- 10
 
 env:
   global:
