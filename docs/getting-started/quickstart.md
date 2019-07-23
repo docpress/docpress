@@ -47,6 +47,14 @@ Run the local server via `docpress s` (short for `serve`). This will build your 
 docpress s
 ```
 
+## Building your site
+
+Build the documentation via `docpress b` (short for `build`). This will build your site into `_docpress/`.
+
+```
+docpress b
+```
+
 [Node.js]: http://nodejs.org/
 
 You should now have a basic Docpress website with one page. Let's write more.
