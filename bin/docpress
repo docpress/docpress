@@ -10,7 +10,10 @@ if (module.parent) {
 
 function run () {
   var cwd = process.cwd()
-  var args = require('yargs').argv
+  var yargs = require('yargs')
+  var args = yargs
+    .help(false)
+    .parse()
   if (args._[0] === 'build' || args._[0] === 'b') {
     docpress(cwd).build((err, res) => {
       if (err) throw err
