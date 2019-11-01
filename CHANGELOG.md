@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.8"></a>
+## [0.7.8](https://github.com/docpress/docpress/compare/v0.7.7...v0.7.8) (2019-11-01)
+
+
+### Bug Fixes
+
+* long for help not showing actual help ([8c169b3](https://github.com/docpress/docpress/commit/8c169b3)), closes [#244](https://github.com/docpress/docpress/issues/244)
+
+
+
 <a name="0.7.7"></a>
 ## [0.7.7](https://github.com/docpress/docpress/compare/v0.7.6...v0.7.7) (2019-11-01)
 
