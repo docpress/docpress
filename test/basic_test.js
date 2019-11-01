@@ -4,7 +4,7 @@ const docpress = require('../bin/docpress')
 const fixture = require('./support/fixture')
 
 describe('docpress', function () {
-  let fx = fixture('basic')
+  const fx = fixture('basic')
   let app
 
   before(function () {
