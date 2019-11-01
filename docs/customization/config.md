@@ -42,6 +42,7 @@ Or in `package.json`:
 | **googleAnalytics.domain** | *None* | Restrict Google Analytics only to this domain. |
 | **plugins** | ... | List of plugins. See [Using plugins](plugins.md) for details. |
 | **markdown** | ... | [markdown-it] options and plugins. See [Markdown configuration](markdown.md) for details. |
+| **lang** | `"en"` | The `<html lang="...">` attribute customization. |
 <!--{table:.wide}-->
 
 [markdown-it]: https://www.npmjs.com/package/markdown-it
