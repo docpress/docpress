@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/docpress/docpress/compare/v0.7.9...v0.8.0) (2019-11-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop support for node 6
+
+### Bug Fixes
+
+* drop node 6 ([f9901b2](https://github.com/docpress/docpress/commit/f9901b280d430c973cfdaf628329420b4779ed5d))
+
 ### [0.7.9](https://github.com/docpress/docpress/compare/v0.7.8...v0.7.9) (2019-11-01)
 
 
