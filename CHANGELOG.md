@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.7.9](https://github.com/docpress/docpress/compare/v0.7.8...v0.7.9) (2019-11-01)
+
+
+### Features
+
+* language customization option ([be2974c](https://github.com/docpress/docpress/commit/be2974c5b0d5c33c8eec9d84a5fe5d44c85e85d8)), closes [#243](https://github.com/docpress/docpress/issues/243)
 
 <a name="0.7.8"></a>
 ## [0.7.8](https://github.com/docpress/docpress/compare/v0.7.7...v0.7.8) (2019-11-01)
