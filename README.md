@@ -34,6 +34,7 @@ Check out the [Docpress Showcase](docs/showcase.md) to see how Docpress helped d
 ## Usage
 
 Still under heavy development, consider this a preview.
+Requires Node v8+.
 See the [Getting Started](docs/getting-started/quickstart.md) guide for more details.
 
 ```sh
