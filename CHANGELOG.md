@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.1](https://github.com/docpress/docpress/compare/v0.8.0...v0.8.1) (2019-12-15)
+
+
+### Bug Fixes
+
+* audit deps ([e50d725](https://github.com/docpress/docpress/commit/e50d7253fe6047f1e13cdbf7df81f14622f53bac))
+* update yargs dep ([7ffc5a3](https://github.com/docpress/docpress/commit/7ffc5a3e9b32647befe8ed67b03ca8626e376726))
+
 ## [0.8.0](https://github.com/docpress/docpress/compare/v0.7.9...v0.8.0) (2019-11-01)
 
 
