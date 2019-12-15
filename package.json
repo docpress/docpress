@@ -1,7 +1,7 @@
 {
   "name": "docpress",
   "description": "Documentation website generator",
-  "homepage": "https://github.com/docpress/docpress#readme",
+  "homepage": "http://docpress.github.io",
   "version": "0.8.0",
   "main": "index.js",
   "bin": {
@@ -18,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/docpress/docpress/issues"
   },
-  "homepage": "http://docpress.github.io",
   "keywords": [
     "documentation",
     "generator",
