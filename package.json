@@ -18,6 +18,7 @@
   "bugs": {
     "url": "https://github.com/docpress/docpress/issues"
   },
+  "homepage": "http://docpress.github.io",
   "keywords": [
     "documentation",
     "generator",
