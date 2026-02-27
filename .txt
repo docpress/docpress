@@ -1,0 +1,14 @@
+$ npm install -g docpress
+$ echo "# My project" > README.md
+$ echo "Documented by Markdown files." >> README.md
+$ docpress serve
+
+  Docpress
+  starting development - ^C to exit
+
+  350ms ✓   first build                 
+      on    watching changes
+      on    livereload
+      on    http://localhost:3000
+
+  Running
